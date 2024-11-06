@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Form</title>
+    <link rel="stylesheet" href="poketouch.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="main-div">
+            <div class="bouncing-text">PoKeToUch</div>
+            <div class="center-box">
+                <div style="margin-bottom: 50px;">
+                    <img src="pokemon-symbol-logo-png-31.png" alt="" height="50px" width="50px">
+                </div>
+                <div class="input-group" id="inp-box1">
+                    <h3>Pokemon Type:</h3>
+                    <input type="text" name="input1" id="input1">
+                </div>
+                <div class="input-group" id="inp-box2">
+                    <h3>Number of Cards:</h3>
+                    <input type="number" name="input2" id="input2">
+                </div>
+                <div id="submit_btn">
+                    <button id="search">🔍</button>
+                
+                    <button id="clear" style="font-weight: 500; margin-left: 30px;">clear</button>
+                </div>
+            </div>
+        </div>
+        <div class="pokemonBox"></div> <!-- Fixed typo here -->
+    </div>
+    <script src="poketouch.js"></script> <!-- Ensure your JS file is correctly linked -->
+</body>
+</html>
